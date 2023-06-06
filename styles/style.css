@@ -1,0 +1,10 @@
+.image-grid img {
+    width: 400px;
+    height: 400px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 23.6%);
+    justify-content: center;
+}
